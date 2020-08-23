@@ -35,163 +35,24 @@ a:active {
 </header>
 
 <main>
-<h1>Reservations and Pricing</h1>
+<h1>How To</h1>
 <br>
 
 
 <h3>browns farm</h3>
 <p>
-<h2>Goat Pricing</h2>
-<table>
-   <caption>2020 Rates</caption>
-   <colgroup></colgroup>
-   <colgroup span="3"></colgroup>
-  <thead>
-  <tr>
-    <th rowspan="2">&nbsp;</th>
+<h2>Steps</h2>
+	
+	
+	
+	<p>Goats are a flat rate of $300</p>
+	<p>Contact me by phone to set up date of pick up</p>
+	<p></p>
 
-    <th rowspan="2">Dates</th>
-  </tr>
-  <tr>
-    <th>Availability</th>  
-  <th>Quote</th>
-
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <th scope="row">Spring Kid</th>
-    <td> January 1st - March 1st </td>
-    <td>Available</td>
-    <td>$260</td>
-  </tr>
-  <tr>
-    <th scope="row">Summer Buck</th>
-    <td>
-March 2nd - June 1st</td>
-    <td>Available</td>
-    <td>$280</td>
-  </tr>
-  <tr>
-    <th scope="row">Full Buck</th>
-    <td>June 2nd - December 31st </td>
-    <td>Available</td>
-    <td>$300</td>
-  </tr>
-  </tbody>
-</table>
-
-<h2>Anatolian Pricing</h2>
-<p>
-Anatolians litter are around 6-8 puppies per year during January and are priced at $800.
-Please contact for availabilty.
-</p>
-<form >
-
-
-
-<h2>Reservation Form:</h2>
-
-<fieldset>
-  <legend>Form</legend>
-  <fieldset>
-    <legend>Goat Type</legend>
-    <ul>
-      <li><label><input type="radio" name="radAnswer" onclick="r("260")" value="260" id="rad" > Spring Kid</label></li>
-      <li><label><input type="radio" name="radAnswer" onclick="r(280)" value="280" id="rad" > Summer Buck</label></li>
-      <li><label><input type="radio" name="radAnswer" onclick="r(300)" value="300" id="rad"> Full Buck</label></li>      
-    </ul>
-  </fieldset>
-
-  <fieldset>
-  <legend>Discount</legend>
-    <ul>
-      <li><label><input type="checkbox" name="ckAnswer" onclick="c('0.85')" value="0.85" id="ck"> 15% veteran</label></li>
-
-<li><label><input type="checkbox" name="ckAnswer" onclick="c('0.9')" value="0.9" id="ck"> 10% senior</label></li>
-
-      <li><label><input type="checkbox" name="ckAnswer" onclick="c('0.95')" value="0.95" id="ck"> 5% Repeat Customer</label></li>
-    </ul>
-  </fieldset>
-
-
-
-
-  <fieldset>
-  <legend>Amount</legend>
-  <p>Total Goats: 
-  <select name="goatnum" size="1" id="num">
-    <option onclick= "n('1')" value="1"> 1</option>
-    <option onclick= "n('2')" value="2">2</option>
-    <option onclick= "n('3')" value="3">3</option>
-    <option onclick= "n('4')" value="4">4</option>
-    <option onclick= "n('5')" value="5">5</option>
-    <option onclick= "n('6')" value="6">6</option>
-	<option onclick= "n('7')" value="7">7</option>
-    	<option onclick= "n('8')" value="8">8</option>
-    	<option onclick= "n('9')" value="9">9</option>
-	<option onclick= "n('10')" value="10">10</option>
-  </select>
-  </p>
-  </fieldset>
-
-</fieldset> 
-
-<p>
-
-
-<button type= "button" onclick="fun()" >estimate</button>
-<br>
-
- estimate = <p id = "d"> </p>
-
-<fieldset>
-  <legend>Reservation Information</legend>
-  <ul>
-    <li><label for="form-name">Name:</label> <input type="text" name="customername" id="form-name"></li>
-    <li><label for="form-address">Date of Pick Up:</label> <input type="text" name="address" id="form-address"></li>
-    <li><label for="form-tel">Telephone Number:</label> <input type="tel" name="telephone" id="form-tel"></li>
-    <li><label for="form-email">Email: <input type="email" name="email" id="form-email"></label></li>
-    <li>Special Instructions<br>
-    <textarea name="instructions" rows="4" cols="60" maxlength="400" id="form-story"  long"></textarea></li>
-  </ul>
-</fieldset>
-
-<button type="submit">submit</button>
-
-<script>
-
-var rad=300;
-var ck=1;
-var num=1;
-var x = 1;
-var y =1;
-function r(n){
-this.rad=n;
-}
-function c(n){
-this.ck=n;
-}
-function n(n){
-this.num=n;
-}
-
-function fun()
-{
-var e = document.getElementById("num");
-var num = e.options[e.selectedIndex].value;
-
-this.x = rad*ck*num;
-
-this.y = "$" +x;
-
- document.getElementById("d").innerHTML = y;
-
-}
-</script
-</p>
-
-</form>
+	<p><span class="day">Monday-Friday:</span> 4pm to 9pm</p>
+<p><span class="day">Saturday:</span> 7am to 9pm</p>
+<p><span class="day">Sunday:</span> 7am to 9pm</p>
+	<
 
 <br><footer>
 <p>
